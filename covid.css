@@ -1,0 +1,240 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main-color{
+    color: rgb(0, 64, 128);
+}
+.babi-blue{
+    color: rgb(0, 128, 192);
+}
+.gray{
+    color:rgb(108, 117, 125);
+}
+/* this main font for some text in all web site */
+.main-font-family{
+    font-family: 'Bahnschrift Condensed';
+}
+/* end main font for some text in all web site */
+/* the style of image in header in covide word */
+.covide1-img{
+width: 23px;
+}
+/* end the style of image in header in covide word */
+/* this  */
+.nav-bar{
+    max-width: 100%;
+    min-height: 3vh;
+}
+/* start all style in header main tilte */
+.header-title-style{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #6c757d;
+    text-decoration: none;
+    padding: 0px 29px 0px 29px;
+    min-width: 25px;
+}
+/* end all style in header main tilte */
+/* start do&dont style in header */
+.do-dont{
+    border: 0px ;
+    border-radius: 50px;
+    background-color: rgb(0, 128, 192);
+    color: white !important;
+    padding: 5px 20px;
+}
+/* end do&dont style in header */
+/* start style in div a in web site */
+.back-ground{
+    width: 100%;
+    min-height: 78vh;
+    background-image: url('imgs/shape-a.png');
+}
+/* this style for corona word in div a */
+.corona-p{
+    font-size: 120px;
+    color: rgb(0, 64, 128);
+}
+/* end style for corona word in div a */
+.covide-19{
+    color: red;
+}
+.cases-par{
+    font-size: 12px;
+    color: rgb(108, 117, 125);
+}
+/* end style in div a in web site */
+/* start style in div c (symptoms) */
+.most-background{
+    width: 100%;
+    min-height: 130vh;
+    background-color: rgb(245, 245, 250);
+}
+
+.spread-a{
+    border-bottom: 7px solid rgb(0, 128, 192 , 0.5);
+    max-width: 100%;
+}
+.sym-divs{
+    margin-left: 2%;
+}
+.all-button{
+    background-color: rgb(0, 128, 192);
+    border-radius: 20px;
+    border: 0px;
+}
+.symp-button span {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sympo-imgs{
+    border-radius: 200px;
+    width: 85px;
+    position: absolute;
+    right: 15px;
+    top: -50px;
+}
+.sympo-cards{
+    width: 82%;
+    min-height: 35vh;
+}
+/* style of doc image in prevention sec */
+.doc-image{
+    width: 300px;
+    height: 400px;
+}
+/* end style of doc image in prevention sec */
+.steps-imgs{
+ width: 120px;
+}
+.treatment-back-ground{
+    background-color: #2766BB;
+    width: 100%;
+    min-height: 100vh;
+}
+.hover-bac-ground{
+    background-image: url('imgs/shape-a.png');
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    min-height: 100vh;
+}
+.be-carefull-text{
+    color: #0dcaf0;
+}
+.bg-self-care{
+    background-color: #1B47A1;
+    width: 75%;
+    min-height: 75vh;
+}
+.arr-size{
+    font-size: 14px;
+}
+.dont-imgs{
+    border: 2px solid red;
+    border-radius: 200px;
+    width: 100px;
+}
+.x-mark{
+    color: red;
+    position: absolute;
+    top: 2px;
+    left: 52px;
+}
+.do-imgs{
+    border: 2px solid #6FCC6F;
+    border-radius: 200px;
+    width: 100px
+}
+.rigth-mark{
+    color: #3FCA94;
+    position: absolute;
+    top: 2px;
+    left: 52px;
+}
+.Q-button{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: white;
+    margin-top: 15px;
+    color: rgb(161, 160, 160);
+}
+.Q-button.active{
+    color: rgb(0, 128, 192);
+    border: 2px solid rgb(0, 128, 192);
+}
+.last-update-imgs{
+max-width: 80%;
+margin-top: 5%;
+border-radius: 5%;
+}
+.update-card{
+    min-height: 60vh;
+}
+.update-card:hover{
+    transform: scale(1.1);
+}
+.footer-bg{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #151C2E;
+}
+.footer-btn{
+    position: relative;
+    z-index: 1;
+}
+.go-top-btn{
+    position: fixed;
+    z-index: 2;
+    bottom: 25px;
+    right: 15px;
+    width: 48px;
+    height: 8vh;
+    border-width: 11px 6px 5px 6px;
+    border-color: blue;
+    display: none;
+}
+.go-top-btn i {
+    color: blue;
+    font-size: 22px;
+    font-weight: 800 !important;
+}
+.go-top-btn:hover{
+    transform: scale(1.2);
+}
+#full-screen{
+    display: flex;
+    flex-direction: row;
+
+}
+#mob-screen{
+    display: none;
+}
+.motion{
+    transform: translate(-50% , -50%);
+}
+.bg-header-mob{
+    background-color: rgba(8, 8, 252, 0.5);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+}
+.menu-mob{
+    display: none;
+}
+.ul-mob{
+    display: flex;
+    align-items: center;
+}
+nav ul li.active a{
+    color: blue;
+}
+/* @media only screen and (max-width: 990px) {
+    .ul-mob{
+        display: flex;
+        align-items: flex-start;
+    }
+} */
